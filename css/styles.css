@@ -6,6 +6,7 @@
   --logo-text-color: #000000;
   --main-bg-color: #2f303a;
   --icon-bg-color: #f5f4fa;
+  --border-client-color: #afb1b8;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -330,6 +331,28 @@ img {
 
   /* margin-bottom: 9px; */
   /* outline: 3px solid springgreen; */
+}
+
+/*********************** Постоянные клиенты *****************************/
+.client-list {
+  display: flex;
+}
+.client-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--border-client-color);
+  border-radius: 4px;
+}
+.client-item:not(:last-child) {
+  margin-right: 30px;
+}
+.client {
+  width: 106px;
+  height: 60px;
+  margin: 16px 32px;
+}
+.client:hover {
+  fill: #2196f3;
 }
 
 /********* П О Р Т Ф О Л И О ************/
