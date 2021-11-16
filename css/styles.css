@@ -265,15 +265,17 @@ img {
   margin-right: 32px;
 }
 .networks-item {
-  border-radius: 50%;
-  outline: 1px solid springgreen;
+  background-color: var(--accent-text-color);
+}
+.networks-item:not(:last-child) {
+  margin-right: 10px;
 }
 .networks-link {
-  display: flex;
+  display: block;
   width: 44px;
   height: 44px;
+  border-radius: 50%;
   fill: var(--border-client-color);
-  background-color: var(--accent-text-color);
 }
 .networks-icon {
   width: 20px;
