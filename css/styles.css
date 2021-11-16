@@ -6,6 +6,7 @@
   --logo-text-color: #000000;
   --main-bg-color: #2f303a;
   --icon-bg-color: #f5f4fa;
+  --icon-client-color: #afb1b8;
   --border-client-color: #afb1b8;
 }
 body {
@@ -350,10 +351,14 @@ img {
   width: 106px;
   height: 60px;
   margin: 16px 32px;
+  fill: var(--icon-client-color);
 }
+.client-item:focus,
+.client-item:hover,
 .client:hover,
 .client:focus {
-  fill: #2196f3;
+  fill: var(--accent-link-color);
+  border-color: var(--accent-link-color);
 }
 
 /********* П О Р Т Ф О Л И О ************/
