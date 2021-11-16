@@ -256,7 +256,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   color: var(--primary-text-color);
-  /* margin-bottom: 30px; */
+  margin-bottom: 16px;
 }
 /********************* Networks (Соцсети)****************************************/
 .networks-list {
