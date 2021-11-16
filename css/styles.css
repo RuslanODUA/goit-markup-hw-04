@@ -258,6 +258,35 @@ img {
   color: var(--primary-text-color);
   /* margin-bottom: 30px; */
 }
+/********************* Networks (Соцсети)****************************************/
+.networks-list {
+  display: flex;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.networks-item {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  outline: 1px solid springgreen;
+}
+.networks-link {
+}
+.networks-icon {
+  width: 20px;
+  height: 20px;
+  margin: 12px;
+  fill: var(--border-client-color);
+}
+
+.networks-icon:hover,
+.networks-icon:focus {
+  fill: var(--accent-text-color);
+}
+.networks-item:hover,
+.networks-item:focus {
+  background-color: var(--accent-link-color);
+}
 /* Чем мы занимаемся */
 .work-section {
   padding-top: 0;
