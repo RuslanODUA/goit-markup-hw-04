@@ -185,7 +185,7 @@ img {
   margin-right: 10px;
 }
 .address-link {
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   fill: var(--border-client-color);
