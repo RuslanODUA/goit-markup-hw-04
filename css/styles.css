@@ -8,6 +8,7 @@
   --icon-bg-color: #f5f4fa;
   --icon-client-color: #afb1b8;
   --border-client-color: #afb1b8;
+  --social-bg-color: #ffffff1a;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -380,11 +381,50 @@ img {
 
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
-
   /* margin-bottom: 9px; */
   /* outline: 3px solid springgreen; */
 }
-
+.footer-box {
+  display: flex;
+}
+/*************************** social box **********************************/
+.social-box {
+  display: block;
+  margin-left: 70px;
+}
+.social-title {
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--accent-text-color);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.social-list {
+  display: flex;
+}
+.social-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--accent-text-color);
+}
+.social-item {
+  border-radius: 50%;
+  background-color: var(--social-bg-color);
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 12px;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-link-color);
+}
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
 /*********************** Постоянные клиенты *****************************/
 .client-list {
   display: flex;
