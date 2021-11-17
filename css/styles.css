@@ -168,8 +168,21 @@ img {
     0px 4px 4px 0px rgba(0, 0, 0, 0, 06), 1px 4px 6px 0px rgba(0, 0, 0, 0, 16);
 }
 /* Адресс */
-
+.address-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.address-icon-smart {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
 .address-link {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  fill: var(--border-client-color);
   color: var(--primary-text-color);
 }
 .address-link:focus,
@@ -178,6 +191,7 @@ img {
 .footer-address-address:hover,
 .footer-address-link:focus,
 .footer-address-link:hover {
+  fill: var(--accent-link-color);
   color: var(--accent-link-color);
 }
 /* Шапка */
