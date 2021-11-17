@@ -147,6 +147,7 @@ img {
 .filter-item:not(:last-child) {
   margin-right: 8px;
 }
+/******************** Портфолио, основной контент ********************************* */
 .portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -155,7 +156,9 @@ img {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  /* border: 1px solid #eeeeee; */
+}
+.portfolio-link {
+  display: block;
 }
 .portfolio-item:nth-child(3n) {
   margin-right: 0;
@@ -165,9 +168,11 @@ img {
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
+  outline: 1px solid springgreen;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0, 12),
     0px 4px 4px 0px rgba(0, 0, 0, 0, 06), 1px 4px 6px 0px rgba(0, 0, 0, 0, 16);
 }
+/************************************************************************************/
 /* Адресс */
 .address-icon {
   width: 16px;
