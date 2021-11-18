@@ -188,7 +188,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: var(--border-client-color);
+  fill: var(--primary-text-color);
   color: var(--primary-text-color);
 }
 .address-link:focus,
@@ -257,13 +257,15 @@ img {
 }
 /**********************************/
 .icon-box {
+  display: flex;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
   background-color: var(--icon-bg-color);
+  align-items: center;
+  justify-content: center;
 }
 .icon {
-  margin: 25px 100px;
   width: 70px;
   height: 70px;
 }
@@ -286,8 +288,10 @@ img {
 /********************* Networks (Соцсети)****************************************/
 .networks-list {
   display: flex;
-  margin-left: 32px;
-  margin-right: 32px;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 32px;
+  margin-right: 32px; */
 }
 .networks-item {
   background-color: var(--accent-text-color);
@@ -296,16 +300,18 @@ img {
   margin-right: 10px;
 }
 .networks-link {
-  display: block;
+  display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   fill: var(--border-client-color);
+  align-items: center;
+  justify-content: center;
 }
 .networks-icon {
   width: 20px;
   height: 20px;
-  margin: 12px;
+  /* margin: 12px; */
 }
 
 .networks-link:hover,
@@ -391,6 +397,7 @@ img {
 }
 .footer-box {
   display: flex;
+  align-items: baseline;
 }
 /*************************** social box **********************************/
 .social-box {
@@ -408,11 +415,13 @@ img {
   display: flex;
 }
 .social-link {
-  display: block;
+  display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   fill: var(--accent-text-color);
+  align-items: center;
+  justify-content: center;
 }
 .social-item {
   border-radius: 50%;
@@ -421,7 +430,7 @@ img {
 .social-icon {
   width: 20px;
   height: 20px;
-  margin: 12px;
+  /* margin: 12px; */
 }
 .social-link:hover,
 .social-link:focus {
@@ -478,7 +487,10 @@ img {
 .filter-button:hover {
   color: var(--accent-text-color);
   background-color: #2196f3;
+  box-shadow: 0px 2px 2px 0px #0000001f, 0px 1px 2px 0px #00000014,
+    0px 3px 1px 0px #0000001a;
 }
+
 .portfolio-bloc-text {
   border: 1px solid #eeeeee;
   padding: 20px 24px;
