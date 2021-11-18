@@ -392,8 +392,6 @@ img {
 
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
-  /* margin-bottom: 9px; */
-  /* outline: 3px solid springgreen; */
 }
 .footer-box {
   display: flex;
